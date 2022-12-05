@@ -56,6 +56,12 @@ public class LibraryController {
         return "Welcome to book edit page";
     }
 
+    @PostMapping("/issue")
+    public String Issuebook()
+    {
+        return "Welcome to book issue page";
+    }
+
 
 
 }
