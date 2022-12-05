@@ -25,5 +25,11 @@ public class LibraryController {
         return "Welcome to user login page";
     }
 
+    @PostMapping("/entry")
+    public String Entrybook()
+    {
+        return "Welcome to book entry page";
+    }
+
 
 }
