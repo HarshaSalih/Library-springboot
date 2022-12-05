@@ -38,6 +38,12 @@ public class LibraryController {
         return "Welcome to book view page";
     }
 
+    @PostMapping("/search")
+    public String Searchbook()
+    {
+        return "Welcome to book search page";
+    }
+
 
 
 }
