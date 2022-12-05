@@ -50,6 +50,12 @@ public class LibraryController {
         return "Welcome to book delete page";
     }
 
+    @PostMapping("/edit")
+    public String Editbook()
+    {
+        return "Welcome to book edit page";
+    }
+
 
 
 }
