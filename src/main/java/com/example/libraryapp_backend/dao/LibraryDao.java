@@ -21,10 +21,10 @@ public interface LibraryDao extends CrudRepository <Library,String> {
     @Query (value = "DELETE FROM `library` WHERE `id`=:id",nativeQuery = true)
     void DeleteBook(@Param("id")Integer id);
 
-    @Query(value = "")
-    void EditBook(@Param("book_title")String book_title);
-
-    @Query(value = "")
-    void IssueBook(@Param("book_title")String book_title);
+//    @Query(value = "")
+//    void EditBook(@Param("book_title")String book_title);
+//
+//    @Query(value = "")
+//    void IssueBook(@Param("book_title")String book_title);
 
 }
